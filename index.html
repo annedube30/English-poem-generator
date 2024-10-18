@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Poem Generator</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -12,7 +13,7 @@
     </header>
     <main>
       <div class="container-1">
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter english topic to generate a poem..."
@@ -25,23 +26,21 @@
         </form>
 
         <div class="poem">
-          english poem
           <br />
-          english poem
         </div>
+        <footer>
+          This AI project was coded by 🌈
+          <a href="https://github.com/annedube30"> Anne Dube </a> and is
+          <a href="https://github.com/annedube30/English-poem-generator"
+            >open sourced on Github</a
+          >
+          and is
+          <a href="https://englishpoemgenerator.netlify.app/">
+            hosted on Netlify
+          </a>
+        </footer>
+        <script src="src/index.js"></script>
       </div>
-      <footer>
-        This AI project was coded by 🌈
-        <a href="https://github.com/annedube30"> Anne Dube </a> and is
-        <a href="https://github.com/annedube30/English-poem-generator"
-          >open sourced on Github</a
-        >
-        and is
-        <a href="https://englishpoemgenerator.netlify.app/">
-          hosted on Netlify
-        </a>
-      </footer>
-      <script src="src/index.js"></script>
     </main>
   </body>
 </html>
