@@ -60,6 +60,10 @@ form {
   width: 150px;
   font-size: 20px;
 }
+.submit-button:hover {
+  background-color: #13547a;
+  cursor: pointer;
+}
 .poem {
   font-size: 14px;
   background-color: #79c2d0;
