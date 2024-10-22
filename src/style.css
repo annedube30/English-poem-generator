@@ -60,6 +60,9 @@ form {
 
   max-width: 600px;
 }
+.poem strong {
+  color: #13547a;
+}
 footer {
   text-align: center;
   font-size: 20px;
